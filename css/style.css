@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main .banner{
+    width: 100%;
+}
+
+main .main-contacto{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+
+}
+
+main .main-ubicacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .main-trabajo{
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+}
+
+.cont_fiambres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont_fiambres .fiambre{
+    width: 15rem;
+    height: 20rem;
+    padding: 1rem;
+    background-color: olive;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont_fiambres .fiambre .botones .b_comprar{
+    background-color: coral;
+    }
+
+
+    footer{
+        margin-top:50px;
+        width:100%;
+        height:200px;
+        display: flex;
+        justify-content: center;
+    }
